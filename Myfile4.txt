@@ -7,7 +7,7 @@ Bla-bla-bla-bla
 Bla-bla-bla-bla
 Bla-bla-bla-bla
 Bla-bla-bla-bla
-***REMOVED***
+Some secret line
 Bla-bla-bla-bla
 Bla-bla-bla-bla
 Bla-bla-bla-bla
