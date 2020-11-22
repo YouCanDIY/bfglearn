@@ -1,6 +1,5 @@
 Param($checkoutDir,$AdUserName,$AdPassword)
 
-$checkoutDir = "D:\bfglearn\bfglearn\LetsBuildIt";
 $ADName = "EPAM_DEV";
 $Domain = "epam.com";
 $SizeLimit = "300";
