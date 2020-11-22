@@ -4,10 +4,9 @@ $ADName = "EPAM_DEV";
 $Domain = "epam.com";
 $SizeLimit = "300";
 
-$inFileName =  $checkoutDir + "LetsBuildIt\LetsBuildIt\local.config.txt";
-$outFileName =  $checkoutDir + "LetsBuildIt\LetsBuildIt\local.config";
+$inFileName =  $checkoutDir + "\LetsBuildIt\LetsBuildIt\local.config.txt";
+$outFileName =  $checkoutDir + "\LetsBuildIt\LetsBuildIt\local.config";
 $xmlDoc = [System.Xml.XmlDocument](Get-Content $inFileName);
-#$newXmlAddElement = $xmlDoc.configuration.ActiveDirectoryConfig.Servers.AppendChild($xmlDoc.CreateElement("add"));
 $newXmlAddElement = $xmlDoc.CreateElement("add");
 $newXmlAddElement.SetAttribute("Name", $ADName);
 $newXmlAddElement.SetAttribute("Domain", $Domain);
